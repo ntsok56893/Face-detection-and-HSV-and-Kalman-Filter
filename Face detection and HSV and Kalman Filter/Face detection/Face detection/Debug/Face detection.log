@@ -1,0 +1,35 @@
+﻿  MyForm.cpp
+C:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\opencv\build\include\opencv2\core\cvstd.hpp(599): warning C4793: 'cv::String::String': 函式會編譯成機器碼:
+  	找到 Managed 程式碼中不支援的內建
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(392): warning C4793: 'cv::Mat::Mat': 函式會編譯成機器碼:
+  	找到 Managed 程式碼中不支援的內建
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(1872): warning C4793: 'cv::SparseMat::addref': 函式會編譯成機器碼:
+  	找到 Managed 程式碼中不支援的內建
+c:\opencv\build\include\opencv2\core\mat.inl.hpp(3473): warning C4793: 'cv::UMat::addref': 函式會編譯成機器碼:
+  	找到 Managed 程式碼中不支援的內建
+c:\opencv\build\include\opencv2\core\ptr.inl.hpp(67): warning C4793: 'cv::detail::PtrOwner::incRef': 函式會編譯成機器碼:
+  	找到 Managed 程式碼中不支援的內建
+c:\opencv\build\include\opencv2\core\ptr.inl.hpp(72): warning C4793: 'cv::detail::PtrOwner::decRef': 函式會編譯成機器碼:
+  	找到 Managed 程式碼中不支援的內建
+MyForm.obj : warning LNK4248: 無法解析的 typeref 語彙基元 (01000021) (對 'CvCapture' 而言)，映像可能無法執行
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A00064E) "public: void __thiscall cv::UMat::copySize(class cv::UMat const &)" (?copySize@UMat@cv@@$$FQAEXABV12@@Z) 在函式 "public: __thiscall cv::UMat::UMat(class cv::UMat const &)" (??0UMat@cv@@$$FQAE@ABV01@@Z) 中被參考
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0006A4) "extern "C" int __cdecl cvNamedWindow(char const *,int)" (?cvNamedWindow@@$$J0YAHPBDH@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0006BB) "extern "C" void __cdecl cvShowImage(char const *,void const *)" (?cvShowImage@@$$J0YAXPBDPBX@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0006C4) "extern "C" struct CvCapture * __cdecl cvCreateCameraCapture(int)" (?cvCreateCameraCapture@@$$J0YAPAUCvCapture@@H@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0006FD) "extern "C" void __cdecl cvReleaseImage(struct _IplImage * *)" (?cvReleaseImage@@$$J0YAXPAPAU_IplImage@@@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A000702) "extern "C" struct _IplImage * __cdecl cvQueryFrame(struct CvCapture *)" (?cvQueryFrame@@$$J0YAPAU_IplImage@@PAUCvCapture@@@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2028: 無法解析的語彙基元 (0A0007CA) "extern "C" int __cdecl cvWaitKey(int)" (?cvWaitKey@@$$J0YAHH@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "public: void __thiscall cv::UMat::copySize(class cv::UMat const &)" (?copySize@UMat@cv@@$$FQAEXABV12@@Z) 在函式 "public: __thiscall cv::UMat::UMat(class cv::UMat const &)" (??0UMat@cv@@$$FQAE@ABV01@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "extern "C" int __cdecl cvNamedWindow(char const *,int)" (?cvNamedWindow@@$$J0YAHPBDH@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "extern "C" struct CvCapture * __cdecl cvCreateCameraCapture(int)" (?cvCreateCameraCapture@@$$J0YAPAUCvCapture@@H@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "extern "C" struct _IplImage * __cdecl cvQueryFrame(struct CvCapture *)" (?cvQueryFrame@@$$J0YAPAU_IplImage@@PAUCvCapture@@@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl cvShowImage(char const *,void const *)" (?cvShowImage@@$$J0YAXPBDPBX@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "extern "C" int __cdecl cvWaitKey(int)" (?cvWaitKey@@$$J0YAHH@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "extern "C" void __cdecl cvReleaseImage(struct _IplImage * *)" (?cvReleaseImage@@$$J0YAXPAPAU_IplImage@@@Z) 在函式 "private: void __clrcall Face_detection::MyForm::btn_detection_Click(class System::Object ^,class System::EventArgs ^)" (?btn_detection_Click@MyForm@Face_detection@@$$FA$AAMXP$AAVObject@System@@P$AAVEventArgs@4@@Z) 中被參考
+MyForm.obj : error LNK2019: 無法解析的外部符號 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z) 在函式 "public: __thiscall cv::Mat::Mat(class cv::Mat const &)" (??0Mat@cv@@QAE@ABV01@@Z) 中被參考
+C:\opencv\build\x64\vc14\lib\opencv_world310.lib : warning LNK4272: 程式庫電腦類型 'x64' 與目標電腦類型 'X86' 發生衝突
+C:\opencv\build\x64\vc14\lib\opencv_world310d.lib : warning LNK4272: 程式庫電腦類型 'x64' 與目標電腦類型 'X86' 發生衝突
+E:\VS_2015_Projects\Face detection\Debug\Face detection.exe : fatal error LNK1120: 15 個無法解析的外部符號
